@@ -1,0 +1,96 @@
+/* Fonts */
+.contenido {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+/* Title */
+
+h1 {
+    text-align: center;
+    border: 2px solid black;
+    background-color: lightseagreen;
+    font-weight: bolder;
+    margin: auto;
+}
+
+/* Content Style */
+.contenido {
+    background-color: rgba(104, 180, 250, 0.548);
+    border: 2px solid black;
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 5px;
+    padding-top: 15px;
+    position: relative;
+}
+
+/* Span style */
+.subcaja1 {
+    font-size: 15px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: darkkhaki;
+    font-weight: bolder;
+    text-align: center;
+    float: right;
+    top: 0;
+    right: 0;
+    margin: 0;
+    position: absolute;
+}
+
+.subcaja2 {
+    font-size: 15px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: rgb(243, 123, 123);
+    font-weight: bolder;
+    text-align: center;
+    float: right;
+    top: 0;
+    right: 0;
+    margin: 0;
+    position: absolute;
+}
+
+.subcaja3 {
+    font-size: 15px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: rgb(67, 117, 255);
+    font-weight: bolder;
+    text-align: center;
+    float: right;
+    top: 0;
+    right: 0;
+    margin: 0;
+    position: absolute;
+}
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        width: 33.33%;
+        float: left;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        width: 50%;
+        float: left;
+    }
+
+    .col-md-12 {
+        width: 100%;
+        float: left;
+    }
+
+    @media (max-width: 767px) {
+        .col-lg-4 {
+            margin: auto;
+        }
+    }
+
+}
